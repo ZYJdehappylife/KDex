@@ -1,0 +1,30 @@
+[SYS] 2026/09/05 - 11:45:55 | initializing token encoders 
+[SYS] 2026/09/05 - 11:45:55 | token encoders initialized 
+[SYS] 2026/09/05 - 11:45:55 | using PostgreSQL as database 
+[SYS] 2026/09/05 - 11:45:55 | database migration started 
+[SYS] 2026/09/05 - 11:45:55 | system is not initialized and no root user exists 
+[SYS] 2026/09/05 - 11:45:55 | SYNC_FREQUENCY not set, use default value 60 
+[SYS] 2026/09/05 - 11:45:55 | Redis is enabled 
+[SYS] 2026/09/05 - 11:45:55 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/09/05 - 11:45:55 | Loaded 0 custom OAuth providers 
+[SYS] 2026/09/05 - 11:45:55 | KDex API  started 
+[SYS] 2026/09/05 - 11:45:55 | memory cache enabled 
+[SYS] 2026/09/05 - 11:45:55 | sync frequency: 60 seconds 
+[SYS] 2026/09/05 - 11:45:55 | channels synced from database 
+[SYS] 2026/09/05 - 11:45:55 | batch update enabled with interval 5s 
+[INFO] 2026/09/05 - 11:45:55 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[INFO] 2026/09/05 - 11:45:55 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[SYS] 2026/09/05 - 11:45:55 | 正在更新数据看板数据... 
+[SYS] 2026/09/05 - 11:45:55 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/09/05 - 11:45:55 | SYSTEM | system task runner started: runner=kdex-api-node-1-hwRfIAdL idle_interval=15s 
+
+  [33mWarning: Refresh cookie is not secure and refresh/logout Origin validation is disabled. Please set SESSION_COOKIE_SECURE=true in production.[0m
+
+
+  [32mKDex API [0m  ready in 399 ms
+
+  ➜  [1mNetwork:[0m http://172.19.0.4:3000/
+
+[SYS] 2026/09/05 - 11:46:03 | received signal: terminated, shutting down... 
+[SYS] 2026/09/05 - 11:46:03 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/05 - 11:46:03 | server exited 

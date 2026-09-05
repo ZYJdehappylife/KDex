@@ -1,0 +1,35 @@
+[SYS] 2026/09/04 - 13:30:39 | initializing token encoders 
+[SYS] 2026/09/04 - 13:30:39 | token encoders initialized 
+[SYS] 2026/09/04 - 13:30:39 | using PostgreSQL as database 
+[SYS] 2026/09/04 - 13:30:39 | database migration started 
+[SYS] 2026/09/04 - 13:30:42 | system is already initialized at: 2026-09-03 09:50:25 +0800 CST 
+[SYS] 2026/09/04 - 13:30:42 | SYNC_FREQUENCY not set, use default value 60 
+[SYS] 2026/09/04 - 13:30:42 | Redis is enabled 
+[SYS] 2026/09/04 - 13:30:42 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/09/04 - 13:30:42 | Loaded 0 custom OAuth providers 
+[SYS] 2026/09/04 - 13:30:42 | New API  started 
+[SYS] 2026/09/04 - 13:30:42 | memory cache enabled 
+[SYS] 2026/09/04 - 13:30:42 | sync frequency: 60 seconds 
+[SYS] 2026/09/04 - 13:30:42 | channels synced from database 
+[SYS] 2026/09/04 - 13:30:42 | batch update enabled with interval 5s 
+[INFO] 2026/09/04 - 13:30:42 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[INFO] 2026/09/04 - 13:30:42 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[INFO] 2026/09/04 - 13:30:42 | SYSTEM | system task runner started: runner=new-api-node-1-DbAIDhzH idle_interval=15s 
+[SYS] 2026/09/04 - 13:30:42 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 13:30:42 | 保存数据看板数据成功，共保存0条数据 
+
+  [33mWarning: Refresh cookie is not secure and refresh/logout Origin validation is disabled. Please set SESSION_COOKIE_SECURE=true in production.[0m
+
+
+  [32mKDex API [0m  ready in 2426 ms
+
+  ➜  [1mNetwork:[0m http://172.18.0.4:3000/
+
+[GIN] 2026/09/04 - 13:30:44 | web | 202609040530448825149888268d9d61Ui6GQPJ | 200 |     818.655µs |    192.168.10.1 |     GET /sign-in?redirect=%2Fsystem-settings%2Fsite%2Fsystem-info
+[GIN] 2026/09/04 - 13:30:45 | api | 202609040530452318573558268d9d6DavToo0f | 200 |    6.140711ms |    192.168.10.1 |     GET /api/status
+[GIN] 2026/09/04 - 13:30:45 | api | 202609040530452383954918268d9d6ftyMPXqS | 401 |    2.103043ms |    192.168.10.1 |    POST /api/user/auth/refresh
+[GIN] 2026/09/04 - 13:30:45 | api | 202609040530453181287298268d9d6cEqbE8Sd | 200 |     503.764µs |    192.168.10.1 |     GET /api/status
+[GIN] 2026/09/04 - 13:30:45 | api | 202609040530453221415728268d9d6PlQXffnZ | 200 |     551.433µs |    192.168.10.1 |     GET /api/status
+[SYS] 2026/09/04 - 13:30:46 | received signal: terminated, shutting down... 
+[SYS] 2026/09/04 - 13:30:46 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 13:30:46 | server exited 

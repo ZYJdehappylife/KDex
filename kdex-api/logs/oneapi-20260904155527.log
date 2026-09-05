@@ -1,0 +1,375 @@
+[SYS] 2026/09/04 - 15:55:27 | initializing token encoders 
+[SYS] 2026/09/04 - 15:55:27 | token encoders initialized 
+[SYS] 2026/09/04 - 15:55:27 | using PostgreSQL as database 
+[SYS] 2026/09/04 - 15:55:27 | database migration started 
+[SYS] 2026/09/04 - 15:55:29 | system is already initialized at: 2026-09-03 09:50:25 +0800 CST 
+[SYS] 2026/09/04 - 15:55:29 | SYNC_FREQUENCY not set, use default value 60 
+[SYS] 2026/09/04 - 15:55:29 | Redis is enabled 
+[SYS] 2026/09/04 - 15:55:29 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/09/04 - 15:55:29 | Loaded 0 custom OAuth providers 
+[SYS] 2026/09/04 - 15:55:29 | New API  started 
+[SYS] 2026/09/04 - 15:55:29 | memory cache enabled 
+[SYS] 2026/09/04 - 15:55:29 | sync frequency: 60 seconds 
+[SYS] 2026/09/04 - 15:55:29 | channels synced from database 
+[SYS] 2026/09/04 - 15:55:29 | batch update enabled with interval 5s 
+[INFO] 2026/09/04 - 15:55:29 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[INFO] 2026/09/04 - 15:55:29 | SYSTEM | system task runner started: runner=new-api-node-1-QLUI93eq idle_interval=15s 
+[INFO] 2026/09/04 - 15:55:29 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[SYS] 2026/09/04 - 15:55:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 15:55:29 | 保存数据看板数据成功，共保存0条数据 
+
+  [33mWarning: Refresh cookie is not secure and refresh/logout Origin validation is disabled. Please set SESSION_COOKIE_SECURE=true in production.[0m
+
+
+  [32mKDex API [0m  ready in 2429 ms
+
+  ➜  [1mNetwork:[0m http://172.18.0.4:3000/
+
+[GIN] 2026/09/04 - 15:55:29 | web | 202609040755297313595398268d9d68DMf6sVp | 200 |    1.336111ms |    192.168.10.1 |     GET /about
+[GIN] 2026/09/04 - 15:55:29 | web | 202609040755297775920318268d9d6J2CeKSLS | 200 |  152.470818ms |    192.168.10.1 |     GET /static/js/index.d65cbd1580.js
+[GIN] 2026/09/04 - 15:55:30 | api | 202609040755300378515928268d9d6PbR1AmPs | 200 |    1.145196ms |    192.168.10.1 |     GET /api/status
+[GIN] 2026/09/04 - 15:55:30 | api | 202609040755300467228778268d9d6nWjw249o | 401 |    1.010012ms |    192.168.10.1 |    POST /api/user/auth/refresh
+[GIN] 2026/09/04 - 15:55:30 | web | 202609040755301037537888268d9d66IAU973s | 200 |     556.994µs |    192.168.10.1 |     GET /static/js/async/9908.dc3e808465.js
+[GIN] 2026/09/04 - 15:55:30 | api | 202609040755302153286958268d9d6JNFzASNM | 200 |     502.982µs |    192.168.10.1 |     GET /api/status
+[GIN] 2026/09/04 - 15:55:30 | api | 202609040755302223477268268d9d6DCjffWVe | 200 |    4.198908ms |    192.168.10.1 |     GET /api/notice
+[GIN] 2026/09/04 - 15:55:30 | api | 202609040755302225630678268d9d6vGGmJaCh | 200 |    4.189401ms |    192.168.10.1 |     GET /api/about
+[GIN] 2026/09/04 - 15:55:30 | api | 202609040755302222418408268d9d6dUO4Ihrr | 200 |    6.983376ms |    192.168.10.1 |     GET /api/status
+[GIN] 2026/09/04 - 15:55:57 | api | 202609040755573367413248268d9d6Bdp9uWyo | 200 |     392.288µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 15:56:27 | api | 202609040756274300780208268d9d66ejjgYXm | 200 |     311.154µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 15:56:29 | syncing options from database 
+[SYS] 2026/09/04 - 15:56:29 | syncing channels from database 
+[SYS] 2026/09/04 - 15:56:29 | channels synced from database 
+[GIN] 2026/09/04 - 15:56:57 | api | 202609040756575538498918268d9d6UsrFIOeS | 200 |     341.945µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 15:57:27 | api | 202609040757276803646538268d9d6ipF4J0CW | 200 |     362.413µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 15:57:29 | syncing options from database 
+[SYS] 2026/09/04 - 15:57:29 | syncing channels from database 
+[SYS] 2026/09/04 - 15:57:29 | channels synced from database 
+[GIN] 2026/09/04 - 15:57:57 | api | 202609040757577778041518268d9d6ek9FJqjw | 200 |     355.285µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 15:58:27 | api | 202609040758278923693298268d9d6rjlj21Xu | 200 |     320.629µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 15:58:29 | syncing options from database 
+[SYS] 2026/09/04 - 15:58:29 | syncing channels from database 
+[SYS] 2026/09/04 - 15:58:29 | channels synced from database 
+[GIN] 2026/09/04 - 15:58:58 | api | 202609040758580044037468268d9d6qMsY7YKG | 200 |      345.87µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 15:59:28 | api | 202609040759281278807208268d9d6eQ7TktUj | 200 |     356.799µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 15:59:29 | syncing options from database 
+[SYS] 2026/09/04 - 15:59:29 | syncing channels from database 
+[SYS] 2026/09/04 - 15:59:29 | channels synced from database 
+[GIN] 2026/09/04 - 15:59:58 | api | 202609040759582745355708268d9d6MljKtzfm | 200 |     408.442µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:00:28 | api | 202609040800283724543178268d9d60ayIePI9 | 200 |     356.801µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:00:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:00:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:00:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:00:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:00:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:00:58 | api | 202609040800584780921438268d9d6mrLC0N6R | 200 |     346.114µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:01:28 | api | 202609040801285668047158268d9d6bH9lP2PW | 200 |     352.836µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:01:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:01:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:01:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:01:58 | api | 202609040801586646765318268d9d6g8eSd47F | 200 |     336.788µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:02:28 | api | 202609040802288063186038268d9d6rALbc9qs | 200 |     358.387µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:02:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:02:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:02:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:02:58 | api | 202609040802589497339428268d9d6BuYccMhw | 200 |     387.832µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:03:29 | api | 202609040803290629358198268d9d6JBKKBH6f | 200 |     390.597µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:03:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:03:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:03:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:03:59 | api | 202609040803591876903698268d9d6z9xaIGCG | 200 |     344.898µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:04:29 | api | 202609040804293038817288268d9d6mJNZPkqb | 200 |     364.225µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:04:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:04:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:04:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:04:59 | api | 202609040804593822652308268d9d6STdk35Rn | 200 |     350.149µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:05:29 | api | 202609040805294873892838268d9d6BHOhQz2X | 200 |     423.238µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:05:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:05:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:05:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:05:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:05:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:05:59 | api | 202609040805595912680188268d9d6h7PrRJx2 | 200 |     394.235µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:06:29 | api | 202609040806296835496708268d9d60zHeTuL8 | 200 |      370.37µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:06:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:06:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:06:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:06:59 | api | 202609040806598293712578268d9d6TBERNLUe | 200 |     443.309µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:07:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:07:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:07:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:07:29 | api | 202609040807299291472388268d9d6JAV0LDST | 200 |      333.33µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:08:00 | api | 202609040808000234694338268d9d6xKQsbXOq | 200 |     381.368µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:08:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:08:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:08:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:08:30 | api | 202609040808301504653788268d9d6dta36JRJ | 200 |     309.358µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:09:00 | api | 202609040809002842679708268d9d6Pcp2Yv9B | 200 |     343.422µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:09:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:09:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:09:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:09:30 | api | 202609040809304181574728268d9d6WiX0jZ2r | 200 |     357.826µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:10:00 | api | 202609040810005810475368268d9d62bVzjFlc | 200 |     316.614µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:10:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:10:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:10:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:10:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:10:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:10:30 | api | 202609040810306763917818268d9d6YqpLEc87 | 200 |     311.647µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:11:00 | api | 202609040811007712446378268d9d6gKMuvLAD | 200 |      319.75µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:11:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:11:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:11:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:11:30 | api | 202609040811308924161058268d9d6BL16OBPg | 200 |     341.625µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:12:01 | api | 202609040812010018018118268d9d6kt4etsMN | 200 |     319.485µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:12:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:12:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:12:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:12:31 | api | 202609040812311058612818268d9d6L5ZQOWnd | 200 |     366.414µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:13:01 | api | 202609040813012285530988268d9d6nFyiMcOA | 200 |     532.616µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:13:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:13:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:13:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:13:31 | api | 202609040813313437920828268d9d6NKRtUxaU | 200 |     319.601µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:14:01 | api | 202609040814014565203028268d9d64sbb5xjU | 200 |     380.715µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:14:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:14:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:14:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:14:31 | api | 202609040814315408158008268d9d6W92NcGT5 | 200 |     341.089µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:15:01 | api | 202609040815016286534538268d9d6z9fnjOTt | 200 |     421.701µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:15:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:15:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:15:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:15:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:15:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:15:31 | api | 202609040815317529718018268d9d62EOiZUyC | 200 |       358.4µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:16:01 | api | 202609040816018692850348268d9d6DCqGf0pG | 200 |     331.617µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:16:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:16:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:16:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:16:31 | api | 202609040816319402495858268d9d63MkSd87u | 200 |     398.196µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:17:02 | api | 202609040817020456127598268d9d6qQHktGuL | 200 |     384.477µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:17:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:17:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:17:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:17:32 | api | 202609040817321364211008268d9d6w83mzO43 | 200 |     405.068µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:18:02 | api | 202609040818022820185598268d9d6kJsm1dqM | 200 |     378.524µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:18:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:18:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:18:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:18:32 | api | 202609040818323795865058268d9d6f2hLbocW | 200 |      373.04µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:19:02 | api | 202609040819024867479908268d9d6NWNfiKiW | 200 |     417.929µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:19:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:19:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:19:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:19:32 | api | 202609040819325657875588268d9d6CaRHnInD | 200 |     333.452µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:20:02 | api | 202609040820026779815768268d9d6cvCTkAfU | 200 |     344.892µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:20:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:20:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:20:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:20:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:20:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:20:32 | api | 202609040820327737779968268d9d6HUaz65Dr | 200 |     378.382µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:21:02 | api | 202609040821028986141998268d9d6MbdDhUfq | 200 |     324.173µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:21:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:21:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:21:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:21:33 | api | 202609040821330127139908268d9d65xSxaYr8 | 200 |     351.113µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:22:03 | api | 202609040822031460445678268d9d686eBZvwS | 200 |     367.721µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:22:06 | web | 202609040822061496696178268d9d670o94qkf | 200 |     794.454µs |    192.168.10.1 |     GET /about
+[GIN] 2026/09/04 - 16:22:06 | api | 202609040822063217508408268d9d6pNX52JB9 | 200 |     862.704µs |    192.168.10.1 |     GET /api/status
+[GIN] 2026/09/04 - 16:22:06 | api | 202609040822063439136668268d9d6iH3e6xHa | 401 |     981.841µs |    192.168.10.1 |    POST /api/user/auth/refresh
+[GIN] 2026/09/04 - 16:22:06 | api | 202609040822064254779208268d9d6tVTxctIn | 200 |     851.504µs |    192.168.10.1 |     GET /api/status
+[GIN] 2026/09/04 - 16:22:06 | api | 202609040822064315278238268d9d6HYUNu5n5 | 200 |     998.335µs |    192.168.10.1 |     GET /api/status
+[GIN] 2026/09/04 - 16:22:06 | api | 202609040822064319563108268d9d6jFpEkB0N | 200 |    1.502711ms |    192.168.10.1 |     GET /api/notice
+[GIN] 2026/09/04 - 16:22:06 | api | 202609040822064335210928268d9d6a2dvOgyS | 200 |     254.143µs |    192.168.10.1 |     GET /api/about
+[SYS] 2026/09/04 - 16:22:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:22:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:22:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:22:33 | api | 202609040822332396412178268d9d6COv58a70 | 200 |     345.018µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:23:03 | api | 202609040823033521813398268d9d6U9qr1Pvk | 200 |     382.383µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:23:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:23:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:23:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:23:33 | api | 202609040823334852925238268d9d6l1CUNUo2 | 200 |     345.544µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:24:03 | api | 202609040824036157507308268d9d6QUgT3rbQ | 200 |     348.724µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:24:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:24:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:24:29 | channels synced from database 
+[GIN] 2026/09/04 - 16:24:33 | api | 202609040824337455016268268d9d63rKEMnpF | 200 |     366.549µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:25:03 | api | 202609040825038523075798268d9d6txz4xJtN | 200 |     423.489µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:25:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:25:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:25:29 | syncing channels from database 
+[SYS] 2026/09/04 - 16:25:29 | syncing options from database 
+[SYS] 2026/09/04 - 16:25:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:25:33 | api | 202609040825339434822098268d9d6ZLTiP9PG | 200 |     448.218µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:26:04 | api | 202609040826040638626778268d9d60bSED2Nl | 200 |     348.744µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:26:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:26:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:26:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:26:34 | api | 202609040826341770604538268d9d63LPvOuK6 | 200 |     359.494µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:27:04 | api | 202609040827043038838758268d9d6mx4OEuQX | 200 |     371.369µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:27:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:27:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:27:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:27:34 | api | 202609040827344162381348268d9d6NjJ2f4PK | 200 |     331.397µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:28:04 | api | 202609040828045327957768268d9d6BwJZ9G7Y | 200 |     384.989µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:28:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:28:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:28:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:28:34 | api | 202609040828346314133158268d9d6JSm8WzOQ | 200 |     408.784µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:29:04 | api | 202609040829047443229358268d9d6UTR6LCLc | 200 |     363.865µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:29:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:29:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:29:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:29:34 | api | 202609040829348367841728268d9d6k2hpZFxX | 200 |     343.883µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:30:04 | api | 202609040830049568058198268d9d6pQ1EHlow | 200 |     383.779µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:30:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:30:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:30:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:30:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:30:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:30:35 | api | 202609040830350649559768268d9d6ZAzMpV9Z | 200 |      340.47µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:31:05 | api | 202609040831051931609378268d9d6REfMkOkh | 200 |     338.434µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:31:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:31:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:31:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:31:35 | api | 202609040831352872357668268d9d6T1RDmWMf | 200 |     419.382µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:32:05 | api | 202609040832053834177858268d9d68ae5IvSd | 200 |     342.332µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:32:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:32:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:32:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:32:35 | api | 202609040832355133549258268d9d6lxkktbEv | 200 |      441.28µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:33:05 | api | 202609040833056356555448268d9d6oZymtC6c | 200 |     369.052µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:33:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:33:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:33:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:33:35 | api | 202609040833357750854398268d9d6IlRSJO3S | 200 |     369.331µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:34:05 | api | 202609040834058620576198268d9d606j6XMpG | 200 |      338.38µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:34:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:34:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:34:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:34:35 | api | 202609040834359733114448268d9d6iqFaoybT | 200 |     375.735µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:35:06 | api | 202609040835060639540618268d9d6Sf65eoAg | 200 |     341.958µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:35:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:35:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:35:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:35:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:35:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:35:36 | api | 202609040835361634813488268d9d6APtmgLt8 | 200 |     366.779µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:36:06 | api | 202609040836062916306828268d9d6MkACvBIm | 200 |     381.928µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:36:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:36:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:36:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:36:36 | api | 202609040836364297168798268d9d6F6IUJrg1 | 200 |     393.013µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:37:06 | api | 202609040837065360410778268d9d63tSdRbBa | 200 |     364.947µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:37:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:37:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:37:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:37:36 | api | 202609040837366629227958268d9d6Ijptsktk | 200 |     350.677µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:38:06 | api | 202609040838067354040558268d9d6N3xEWREY | 200 |     390.727µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:38:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:38:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:38:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:38:36 | api | 202609040838368528536618268d9d6I6gUAHXP | 200 |     329.005µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:39:06 | api | 202609040839069572538028268d9d6uutL60tB | 200 |       324.8µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:39:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:39:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:39:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:39:37 | api | 202609040839370854166588268d9d6DQAJcEHa | 200 |     368.795µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:40:07 | api | 202609040840072186250288268d9d66xkT7Pqs | 200 |     377.045µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:40:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:40:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:40:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:40:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:40:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:40:37 | api | 202609040840373276098678268d9d6KbOkCpaj | 200 |     338.844µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:41:07 | api | 202609040841074364387498268d9d6RL4PmPey | 200 |     331.434µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:41:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:41:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:41:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:41:37 | api | 202609040841375392616368268d9d65VrCOGN7 | 200 |     379.933µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:42:07 | api | 202609040842076664180468268d9d6I899DONn | 200 |     365.073µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:42:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:42:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:42:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:42:37 | api | 202609040842377865745648268d9d6IcGWSv4c | 200 |     334.607µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:43:07 | api | 202609040843078865163318268d9d6laXgpmi5 | 200 |     332.918µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:43:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:43:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:43:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:43:38 | api | 202609040843380629040428268d9d63sGwbsiU | 200 |     354.702µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:44:08 | api | 202609040844081936751008268d9d6dAkVxsA7 | 200 |     342.013µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:44:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:44:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:44:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:44:38 | api | 202609040844383298853718268d9d6KNm3CVR0 | 200 |     321.802µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:45:08 | api | 202609040845084572130578268d9d6y5FDTOTE | 200 |     411.332µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:45:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:45:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:45:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:45:30 | syncing options from database 
+[SYS] 2026/09/04 - 16:45:30 | channels synced from database 
+[GIN] 2026/09/04 - 16:45:38 | api | 202609040845385550301818268d9d6D4m3SeMy | 200 |     368.552µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:46:08 | api | 202609040846086690851318268d9d623OLVMnK | 200 |     355.036µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:46:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:46:30 | channels synced from database 
+[SYS] 2026/09/04 - 16:46:30 | syncing options from database 
+[GIN] 2026/09/04 - 16:46:38 | api | 202609040846388049204278268d9d6pokWVtDL | 200 |     565.037µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:47:08 | api | 202609040847088935221408268d9d60IvdujN6 | 200 |     331.531µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:47:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:47:30 | channels synced from database 
+[SYS] 2026/09/04 - 16:47:30 | syncing options from database 
+[GIN] 2026/09/04 - 16:47:38 | api | 202609040847389511031908268d9d6lRJtb2HW | 200 |     319.901µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:48:09 | api | 202609040848090552517148268d9d6yfJBBpEm | 200 |     380.006µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:48:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:48:30 | channels synced from database 
+[SYS] 2026/09/04 - 16:48:30 | syncing options from database 
+[GIN] 2026/09/04 - 16:48:39 | api | 202609040848391852763638268d9d6m1Wu657I | 200 |      340.12µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:49:09 | api | 202609040849092979696798268d9d6kRBbPbV7 | 200 |      312.53µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:49:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:49:30 | channels synced from database 
+[SYS] 2026/09/04 - 16:49:30 | syncing options from database 
+[GIN] 2026/09/04 - 16:49:39 | api | 202609040849394343453088268d9d6Ku6I4RyU | 200 |     383.651µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:50:09 | api | 202609040850095439562318268d9d6iIHoE0gz | 200 |     361.571µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:50:29 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 16:50:29 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 16:50:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:50:30 | channels synced from database 
+[SYS] 2026/09/04 - 16:50:30 | syncing options from database 
+[GIN] 2026/09/04 - 16:50:39 | api | 202609040850396583408328268d9d6u3M3GROA | 200 |     369.531µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:51:09 | api | 202609040851097878443228268d9d6bHLu82sb | 200 |     363.755µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:51:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:51:30 | channels synced from database 
+[SYS] 2026/09/04 - 16:51:30 | syncing options from database 
+[GIN] 2026/09/04 - 16:51:39 | api | 202609040851398908678638268d9d6SkNgWIEg | 200 |     319.695µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:52:09 | api | 202609040852099940820758268d9d6zWE8rNC3 | 200 |      327.07µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:52:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:52:30 | channels synced from database 
+[SYS] 2026/09/04 - 16:52:30 | syncing options from database 
+[GIN] 2026/09/04 - 16:52:40 | api | 202609040852401264271998268d9d6v4h1NWSC | 200 |      334.87µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:53:10 | api | 202609040853102253888008268d9d6iYJNfkfN | 200 |      357.23µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:53:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:53:30 | channels synced from database 
+[SYS] 2026/09/04 - 16:53:30 | syncing options from database 
+[GIN] 2026/09/04 - 16:53:40 | api | 202609040853403138733338268d9d6cV5OiZvs | 200 |     380.469µs |             ::1 |     GET /api/status
+[GIN] 2026/09/04 - 16:54:10 | api | 202609040854104044080428268d9d6qGFqoVOp | 200 |      363.03µs |             ::1 |     GET /api/status
+[SYS] 2026/09/04 - 16:54:30 | syncing channels from database 
+[SYS] 2026/09/04 - 16:54:30 | channels synced from database 
+[SYS] 2026/09/04 - 16:54:30 | syncing options from database 
+[GIN] 2026/09/05 - 08:27:12 | api | 202609050027126843810338268d9d6NdXmlLv5 | 200 |    2.041102ms |             ::1 |     GET /api/status
+[SYS] 2026/09/05 - 08:28:03 | syncing channels from database 
+[SYS] 2026/09/05 - 08:28:02 | 正在更新数据看板数据... 
+[SYS] 2026/09/05 - 08:28:06 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/05 - 08:28:04 | syncing options from database 
+[SYS] 2026/09/05 - 08:28:28 | channels synced from database 
+[GIN] 2026/09/05 - 08:28:28 | api | 202609050028287850924328268d9d6zKotdQoV | 200 |   15.906179ms |             ::1 |     GET /api/status
+[GIN] 2026/09/05 - 08:28:58 | api | 202609050028586828913208268d9d6vhSeqczI | 200 |   11.276143ms |             ::1 |     GET /api/status
+[SYS] 2026/09/05 - 08:29:28 | syncing options from database 
+[SYS] 2026/09/05 - 08:29:28 | syncing channels from database 
+[SYS] 2026/09/05 - 08:29:30 | channels synced from database 
+[GIN] 2026/09/05 - 08:29:31 | api | 202609050029313399504898268d9d69B4idIg9 | 200 |  230.376629ms |             ::1 |     GET /api/status
+[GIN] 2026/09/05 - 08:30:14 | api | 202609050030145189076798268d9d6XGaH0tMT | 200 |   30.741455ms |             ::1 |     GET /api/status
+[SYS] 2026/09/05 - 08:30:14 | received signal: terminated, shutting down... 
+[SYS] 2026/09/05 - 08:30:14 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/05 - 08:30:14 | server exited 

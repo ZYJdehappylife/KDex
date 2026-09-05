@@ -1,0 +1,14 @@
+[SYS] 2026/09/05 - 11:45:54 | initializing token encoders 
+[SYS] 2026/09/05 - 11:45:54 | token encoders initialized 
+[SYS] 2026/09/05 - 11:45:54 | using PostgreSQL as database 
+[SYS] 2026/09/05 - 11:45:54 | database migration started 
+[FATAL] 2026/09/05 - 11:45:54 | [failed to initialize database: failed to connect to `user=root database=kdex-api`:
+	172.19.0.3:5432 (postgres): dial error: dial tcp 172.19.0.3:5432: connect: connection refused
+	172.19.0.3:5432 (postgres): dial error: dial tcp 172.19.0.3:5432: connect: connection refused] 
+[SYS] 2026/09/05 - 11:45:54 | initializing token encoders 
+[SYS] 2026/09/05 - 11:45:54 | token encoders initialized 
+[SYS] 2026/09/05 - 11:45:54 | using PostgreSQL as database 
+[SYS] 2026/09/05 - 11:45:54 | database migration started 
+[FATAL] 2026/09/05 - 11:45:54 | [failed to initialize database: failed to connect to `user=root database=kdex-api`:
+	172.19.0.3:5432 (postgres): dial error: dial tcp 172.19.0.3:5432: connect: connection refused
+	172.19.0.3:5432 (postgres): dial error: dial tcp 172.19.0.3:5432: connect: connection refused] 

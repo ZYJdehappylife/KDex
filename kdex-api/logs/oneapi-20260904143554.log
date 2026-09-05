@@ -1,0 +1,39 @@
+[SYS] 2026/09/04 - 14:35:54 | initializing token encoders 
+[SYS] 2026/09/04 - 14:35:54 | token encoders initialized 
+[SYS] 2026/09/04 - 14:35:54 | using PostgreSQL as database 
+[SYS] 2026/09/04 - 14:35:54 | database migration started 
+[SYS] 2026/09/04 - 14:35:57 | system is already initialized at: 2026-09-03 09:50:25 +0800 CST 
+[SYS] 2026/09/04 - 14:35:57 | SYNC_FREQUENCY not set, use default value 60 
+[SYS] 2026/09/04 - 14:35:57 | Redis is enabled 
+[SYS] 2026/09/04 - 14:35:57 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/09/04 - 14:35:57 | Loaded 0 custom OAuth providers 
+[SYS] 2026/09/04 - 14:35:57 | New API  started 
+[SYS] 2026/09/04 - 14:35:57 | memory cache enabled 
+[SYS] 2026/09/04 - 14:35:57 | sync frequency: 60 seconds 
+[SYS] 2026/09/04 - 14:35:57 | channels synced from database 
+[SYS] 2026/09/04 - 14:35:57 | batch update enabled with interval 5s 
+[INFO] 2026/09/04 - 14:35:57 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[SYS] 2026/09/04 - 14:35:57 | 正在更新数据看板数据... 
+[SYS] 2026/09/04 - 14:35:57 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/09/04 - 14:35:57 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[INFO] 2026/09/04 - 14:35:57 | SYSTEM | system task runner started: runner=new-api-node-1-IwGWNLwp idle_interval=15s 
+
+  [33mWarning: Refresh cookie is not secure and refresh/logout Origin validation is disabled. Please set SESSION_COOKIE_SECURE=true in production.[0m
+
+
+  [32mKDex API [0m  ready in 2693 ms
+
+  ➜  [1mNetwork:[0m http://172.18.0.4:3000/
+
+[GIN] 2026/09/04 - 14:35:58 | web | 202609040635588699660318268d9d6t4VyC01O | 200 |     613.342µs |    192.168.10.1 |     GET /
+[GIN] 2026/09/04 - 14:35:59 | web | 202609040635589316465838268d9d6N5VehFV6 | 200 |  140.752462ms |    192.168.10.1 |     GET /static/js/index.5606343e64.js
+[GIN] 2026/09/04 - 14:35:59 | api | 202609040635591839655708268d9d6mvo7kPWt | 200 |     930.452µs |    192.168.10.1 |     GET /api/status
+[GIN] 2026/09/04 - 14:35:59 | api | 202609040635591887374438268d9d6FoyBC4Nf | 401 |    5.288108ms |    192.168.10.1 |    POST /api/user/auth/refresh
+[GIN] 2026/09/04 - 14:35:59 | web | 202609040635592273803438268d9d6pPg7AWSc | 200 |    1.753749ms |    192.168.10.1 |     GET /static/js/async/5712.ecc92597b2.js
+[GIN] 2026/09/04 - 14:35:59 | api | 202609040635592759148448268d9d6dvVLpuUR | 200 |     562.604µs |    192.168.10.1 |     GET /api/status
+[GIN] 2026/09/04 - 14:35:59 | api | 202609040635592830384998268d9d6lRwd7mTe | 200 |    1.828366ms |    192.168.10.1 |     GET /api/notice
+[GIN] 2026/09/04 - 14:35:59 | api | 202609040635592843605148268d9d6lNSTuOAg | 200 |    2.994504ms |    192.168.10.1 |     GET /api/home_page_content
+[GIN] 2026/09/04 - 14:35:59 | api | 202609040635592828291718268d9d6TAdLDBhO | 200 |   19.704637ms |    192.168.10.1 |     GET /api/status
+[SYS] 2026/09/04 - 14:36:13 | received signal: terminated, shutting down... 
+[SYS] 2026/09/04 - 14:36:13 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/09/04 - 14:36:13 | server exited 

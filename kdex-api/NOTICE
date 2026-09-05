@@ -1,0 +1,78 @@
+KDex API Notices
+================
+
+
+KDex API
+
+Copyright (C) 2026 KDex Team
+
+
+KDex API is a modified version based on:
+
+new-api
+
+Copyright (C) 2023-2026 QuantumNous and contributors.
+
+
+Original project:
+https://github.com/QuantumNous/new-api
+
+
+Original License:
+
+GNU Affero General Public License v3.0
+
+
+--------------------------------------------------
+
+
+Upstream Attribution Required by AGPLv3 Section 7:
+
+"Frontend design and development by New API contributors."
+
+
+Modified versions must preserve this attribution
+and must not misrepresent the origin of the software.
+
+
+--------------------------------------------------
+
+
+Modifications made by KDex Team:
+
+- Redesigned frontend interface
+- Modified navigation system
+- Added KDex branding
+- Added security improvements
+- Modified API management logic
+- Added additional features
+
+
+Modification date:
+
+2026
+
+
+Copyright of these modifications:
+
+Copyright (C) 2026 KDex Team
+
+
+All modifications are licensed under:
+
+GNU Affero General Public License v3.0
+
+
+--------------------------------------------------
+
+
+Third-Party Notices
+
+This product includes third-party open source software.
+
+Copyright notices and license terms for dependencies are listed in:
+
+THIRD-PARTY-LICENSES.md
+
+
+The original third-party notices from new-api are preserved.
